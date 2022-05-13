@@ -6,7 +6,7 @@ export default function Contact() {
     <>
       <Head>
         <title>Contact</title>
-        <link rel="icon" href="/briefcase.png"></link>
+        <link rel="icon" href="/briefcase.ico"></link>
       </Head>
 
       <Navbar />

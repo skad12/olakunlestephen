@@ -23,7 +23,7 @@ export default function Project() {
           <div className="w-5/6 rounded-2xl gap-y-2">
             <div>
               <Image
-                src={`../wapp.png`}
+                src={`/wapp.png`}
                 width={600}
                 height={300}
                 alt=""
@@ -33,7 +33,7 @@ export default function Project() {
             <div className="border-2 border-blue-500 rounded-full "></div>
             <div>
               <Image
-                src={`../wapp.png`}
+                src={`/wapp.png`}
                 width={600}
                 height={300}
                 alt=""
@@ -82,7 +82,7 @@ export default function Project() {
 
           <div className="w-5/6 rounded-2xl gap-y-2">
             <Image
-              src={`../wapp.png`}
+              src={`/wapp.png`}
               width={600}
               height={300}
               alt=""
@@ -91,7 +91,7 @@ export default function Project() {
             <div className="border-2 border-blue-500 rounded-full "></div>
             <div>
               <Image
-                src={`../wapp.png`}
+                src={`/wapp.png`}
                 width={600}
                 height={300}
                 alt=""
@@ -104,7 +104,7 @@ export default function Project() {
           <div className="w-5/6 rounded-2xl gap-y-2">
             <div>
               <Image
-                src={`../wapp.png`}
+                src={`/wapp.png`}
                 width={600}
                 height={300}
                 alt=""
@@ -114,7 +114,7 @@ export default function Project() {
             <div className="border-2 border-blue-500 rounded-full "></div>
             <div>
               <Image
-                src={`../wapp.png`}
+                src={`/wapp.png`}
                 width={600}
                 height={300}
                 alt=""
@@ -164,7 +164,7 @@ export default function Project() {
           <div className="w-5/6 rounded-2xl gap-y-2">
             <div>
               <Image
-                src={`../wapp.png`}
+                src={`/wapp.png`}
                 width={600}
                 height={300}
                 alt=""
@@ -174,7 +174,7 @@ export default function Project() {
             <div className="border-2 border-blue-500 rounded-full "></div>
             <div>
               <Image
-                src={`../wapp.png`}
+                src={`/wapp.png`}
                 width={600}
                 height={300}
                 alt=""
