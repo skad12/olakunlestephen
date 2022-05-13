@@ -6,7 +6,7 @@ export default function Home() {
     <>
       <Head>
         <title>Olakunle&apos;s Portfolio</title>
-        <link rel="icon" href="/briefcase.png"></link>
+        <link rel="icon" href="../briefcase.png"></link>
       </Head>
 
       <Navbar />
