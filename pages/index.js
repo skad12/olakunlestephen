@@ -18,12 +18,10 @@ export default function Home() {
         }}
       >
         <div className="p-16 pt-24 space-y-10 ">
-          <div className="text-4xl italic tracking-widest ">
+          <div className="text-5xl tracking-widest ">
             <div>
-              <span className="text-8xl">H</span>i, I&apos;m{" "}
-              <span className="text-8xl">O</span>lakunle{" "}
-              <span className="text-8xl">S</span>tephen{" "}
-              <span className="text-7xl animate-pulse">&#128075;</span>
+              Hi, I&apos;m{" "} Olakunle{" "} Stephen{" "}
+              <span className="text-5xl animate-pulse">&#128075;</span>
             </div>
           </div>
           <div className="space-y-5 text-2xl font-semibold ">
