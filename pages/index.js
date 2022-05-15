@@ -18,20 +18,20 @@ export default function Home() {
         }}
       >
         <div className="p-16 pt-24 space-y-10 ">
-          <div className="text-5xl tracking-widest ">
+          <div className="text-4xl font-bold tracking-widest lg:text-5xl">
             <div>
               Hi, I&apos;m{" "} Olakunle{" "} Stephen{" "}
-              <span className="text-5xl animate-pulse">&#128075;</span>
+              <span className="lg:text-4xl animate-pulse">&#128075;</span>
             </div>
           </div>
-          <div className="space-y-5 text-2xl font-semibold ">
-            <div>I&apos;m a Front-end Developer based in Nigeria.</div>
+          <div className="space-y-5 text-lg font-semibold lg:text-2xl md:text-xl"> 
+            <div>I&apos;m a <span className="font-bold">Front-end Developer</span> based in Nigeria.</div>
             <div>I Code, Write and Build Stuff on the Internet.</div>
           </div>
-          <div className="pt-10 space-y-5 text-2xl font-semibold">
+          <div className="pt-2 space-y-5 text-lg font-semibold lg:text-2xl md:text-xl">
             <div>
-              I&apos;m focused on building products with HTML5, CSS3 and
-              JavaScript, Specifically Tailwindcss and Next.js .
+              I&apos;m focused on building products with <span className="font-bold">HTML 5</span>, <span className="font-bold">CSS 3</span> and 
+              <span className="font-bold"> JavaScript</span>, Specifically with Frameworks like Tailwindcss, <span className="font-bold">Wordpress</span> and <span className="font-bold">Next.js.</span>
             </div>
             <div>
               When I&apos;m not coding, I&apos;m likely at the gym or Playing

@@ -7,18 +7,18 @@ export default function Project() {
     <>
       <Head>
         <title>Project</title>
-        <link rel="icon" href="../briefcase.png"></link>
+        <link rel="icon" href="/briefcase.ico"></link>
       </Head>
 
       <Navbar />
 
       <div
-        className="pt-10 antialiased"
+        className="antialiased lg:pt-5"
         style={{
           backgroundImage: ` url('https://images.pexels.com/photos/7794425/pexels-photo-7794425.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')`,
         }}
       >
-        <div className="grid grid-cols-2 pt-48 pb-24 pl-16 gap-y-36">
+        <div className="grid pt-32 pb-24 pl-16 lg:pt-48 lg:grid-cols-2 gap-y-36">
           {/*  content1  */}
           <div className="w-5/6 rounded-2xl gap-y-2">
             <div>
@@ -42,16 +42,13 @@ export default function Project() {
             </div>
           </div>
 
-          <div className="pt-10 space-y-6 tracking-wide text-black">
-            <div className="text-3xl font-bold text-center">
+          <div className="space-y-6 tracking-wide text-black ">
+            <div className="font-bold text-center lg:text-3xl">
               What is Lorem Ipsum?
             </div>
-            <div className="text-xl font-semibold ">
+            <div className="font-semibold lg:text-xl ">
               this is a paragraphLorem Ipsum is simply dummy text of the
-              printing and typesetting industry. Lorem Ipsum has been the
-              industry&apos;s standard dummy <br />
-              text ever since the 1500s, when an unknown printer took a galley
-              of type and scrambled it to make a type specimen book.
+              printing and typesetting industry. 
             </div>
             <div>
               <button className="p-3 text-white bg-blue-500 rounded-2xl hover:bg-blue-700 hover:animate-bounce">
@@ -62,16 +59,13 @@ export default function Project() {
 
           {/* content2 */}
 
-          <div className="pt-10 space-y-6 tracking-wide text-black">
+          <div className="space-y-6 tracking-wide text-black lg:pt-5">
             <div className="text-3xl font-bold text-center">
               What is Lorem Ipsum?
             </div>
             <div className="text-xl font-semibold ">
               this is a paragraphLorem Ipsum is simply dummy text of the
-              printing and typesetting industry. Lorem Ipsum has been the
-              industry&apos;s standard dummy text ever since the 1500s, when an
-              unknown printer took a galley of type and scrambled it to make a
-              type specimen book.
+              printing and typesetting industry. 
             </div>
             <div>
               <button className="p-3 text-white bg-blue-500 rounded-2xl hover:bg-blue-700 hover:animate-bounce">
@@ -123,16 +117,13 @@ export default function Project() {
             </div>
           </div>
 
-          <div className="pt-10 space-y-6 tracking-wide text-black">
+          <div className="space-y-6 tracking-wide text-black lg:pt-5">
             <div className="text-3xl font-bold text-center">
               What is Lorem Ipsum?
             </div>
             <div className="text-xl font-semibold ">
               this is a paragraphLorem Ipsum is simply dummy text of the
-              printing and typesetting industry. Lorem Ipsum has been the
-              industry&apos;s standard dummy text ever since the 1500s, when an
-              unknown printer took a galley of type and scrambled it to make a
-              type specimen book.
+              printing and typesetting industry. 
             </div>
             <div>
               <button className="p-3 text-white bg-blue-500 rounded-2xl hover:bg-blue-700 hover:animate-bounce">
@@ -143,19 +134,16 @@ export default function Project() {
 
           {/* content2  */}
 
-          <div className="pt-10 space-y-6 tracking-wide text-black">
-            <div className="text-3xl font-bold text-center">
+          <div className="space-y-6 tracking-wide text-black lg:pt-5">
+            <div className="font-bold text-center lg:text-3xl">
               What is Lorem Ipsum?
             </div>
-            <div className="text-xl font-semibold ">
+            <div className="font-semibold lg:text-xl">
               this is a paragraphLorem Ipsum is simply dummy text of the
-              printing and typesetting industry. Lorem Ipsum has been the
-              industry&apos;s standard dummy text ever since the 1500s, when an
-              unknown printer took a galley of type and scrambled it to make a
-              type specimen book.
+              printing and typesetting industry.
             </div>
-            <div>
-              <button className="p-3 text-white bg-blue-500 rounded-2xl hover:bg-blue-700 hover:animate-bounce">
+            <div  className="p-3 text-center text-white bg-blue-500 rounded-2xl hover:bg-blue-700 hover:animate-bounce">
+              <button>
                 Test-App
               </button>
             </div>
