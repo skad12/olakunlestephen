@@ -42,11 +42,11 @@ export default function Project() {
             </div>
           </div>
 
-          <div className="space-y-6 tracking-wide text-black ">
+          <div className="space-y-6 tracking-wide text-black lg:pt-5">
             <div className="font-bold text-center lg:text-3xl">
               What is Lorem Ipsum?
             </div>
-            <div className="font-semibold lg:text-xl ">
+            <div className="font-semibold lg:text-xl">
               this is a paragraphLorem Ipsum is simply dummy text of the
               printing and typesetting industry. 
             </div>

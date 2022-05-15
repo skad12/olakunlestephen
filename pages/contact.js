@@ -12,7 +12,7 @@ export default function Contact() {
       <Navbar />
       
       <div
-        className="min-h-screen pt-10 pl-8 antialiased text-white bg-cover lg:pl-32"
+        className="min-h-screen pt-10 pl-5 pr-5 antialiased text-white bg-cover lg:pl-32"
         style={{
           backgroundImage: `url('https://images.pexels.com/photos/414144/pexels-photo-414144.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')`,
         }}
