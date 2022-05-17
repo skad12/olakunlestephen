@@ -52,7 +52,7 @@ export default function Project() {
               printing and typesetting industry. 
             </div>
             <div className="">
-            <button type="button" class="text-white bg-red-700 hover:bg-red-800 font-medium rounded-lg
+            <button type="button" className="text-white bg-red-700 hover:bg-red-800 font-medium rounded-lg
              text-sm px-5 py-2.5  hover:animate-bounce text-center mr-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">Test</button>
             </div>
           </div>
@@ -89,7 +89,7 @@ export default function Project() {
               printing and typesetting industry. 
             </div>
             <div className="">
-            <button type="button" class="text-white bg-red-700 hover:bg-red-800 font-medium rounded-lg
+            <button type="button" className="text-white bg-red-700 hover:bg-red-800 font-medium rounded-lg
              text-sm px-5 py-2.5  hover:animate-bounce text-center mr-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">Test</button>
             </div>
           </div>
@@ -126,7 +126,7 @@ export default function Project() {
               printing and typesetting industry. 
             </div>
             <div className="">
-            <button type="button" class="text-white bg-red-700 hover:bg-red-800 font-medium rounded-lg
+            <button type="button" className="text-white bg-red-700 hover:bg-red-800 font-medium rounded-lg
              text-sm px-5 py-2.5  hover:animate-bounce text-center mr-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">Test</button>
             </div>
           </div>
@@ -163,7 +163,7 @@ export default function Project() {
               printing and typesetting industry. 
             </div>
             <div className="">
-            <button type="button" class="text-white bg-red-700 hover:bg-red-800 font-medium rounded-lg
+            <button type="button" className="text-white bg-red-700 hover:bg-red-800 font-medium rounded-lg
              text-sm px-5 py-2.5  hover:animate-bounce text-center mr-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">Test</button>
             </div>
           </div>
