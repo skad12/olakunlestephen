@@ -24,7 +24,7 @@ export default function Project() {
           <div className="w-5/6 rounded-2xl gap-y-2">
             <div>
               <Image
-                src={`/wapp.png`}
+                src={`/weather/wapp.png`}
                 width={600}
                 height={300}
                 alt=""
@@ -34,7 +34,7 @@ export default function Project() {
             
             <div>
               <Image
-                src={`/wapp2.png`}
+                src={`/weather/wapp2.png`}
                 width={600}
                 height={300}
                 alt=""
@@ -43,8 +43,8 @@ export default function Project() {
             </div>
           </div>
 
-          <div className="grid content-center space-y-5 tracking-wide text-black lg:space-y-10 lg:pt-5">
-            <div className="font-bold text-gray-900 lg:text-4xl">
+          <div className="grid content-center space-y-5 tracking-wide text-black lg:space-y-10 lg:pt-2">
+            <div className="font-bold lg:text-3xl">
               Weather Forecast App
             </div>
             <div className="font-semibold text-white align-baseline lg:text-2xl">
@@ -54,7 +54,8 @@ export default function Project() {
             </div>
             <div className="">
             <button type="button" className="text-white bg-red-700 hover:bg-red-800 font-medium rounded-lg
-             text-sm px-5 py-2.5  hover:animate-bounce text-center mr-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900"><a href="https://weather2-sigma.vercel.app/">Test</a></button>
+             text-sm px-5 py-2.5  hover:animate-bounce text-center mr-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">
+              <a href="https://weather2-sigma.vercel.app/">Test</a></button>
             </div>
           </div>
 
@@ -62,7 +63,7 @@ export default function Project() {
           <div className="w-5/6 rounded-2xl gap-y-2">
             <div>
               <Image
-                src={`/wapp.png`}
+                src={`/random/random.png`}
                 width={600}
                 height={300}
                 alt=""
@@ -72,7 +73,7 @@ export default function Project() {
             
             <div>
               <Image
-                src={`/wapp.png`}
+                src={`/random/random1.png`}
                 width={600}
                 height={300}
                 alt=""
@@ -81,17 +82,19 @@ export default function Project() {
             </div>
           </div>
 
-          <div className="grid content-center space-y-5 tracking-wide text-black lg:space-y-10 lg:pt-5">
+          <div className="grid content-center space-y-5 tracking-wide text-black lg:space-y-10 lg:pt-2">
             <div className="font-bold lg:text-3xl">
-              What is Lorem Ipsum?
+              Random Quote Generator 
             </div>
-            <div className="font-semibold lg:text-xl">
-              this is a paragraphLorem Ipsum is simply dummy text of the
-              printing and typesetting industry. 
+            <div className="font-semibold text-white align-baseline lg:text-2xl">
+             Random Quote Generator generates Random Motivational/Inspirational quotes built with Basic Languages (HTML5, CSS3 and Javascript)
+             also with Frameworks such as <a href="https://tailwindcss.com/" className="text-blue-900">Tailwindcss</a>, <a href="https://daisyui.com/" className="text-blue-900" >Daisyui</a> and <a href="https://nextjs.org/" className="text-blue-900" >Next.js</a>, 
+             Used Github as Version Control and Vercel for Deployment. <br/><br/> Click <a href="https://github.com/skad12/random" className="text-blue-900" >here</a> for source code.
             </div>
             <div className="">
             <button type="button" className="text-white bg-red-700 hover:bg-red-800 font-medium rounded-lg
-             text-sm px-5 py-2.5  hover:animate-bounce text-center mr-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">Test</button>
+             text-sm px-5 py-2.5  hover:animate-bounce text-center mr-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">
+              <a href="https://ranquote.vercel.app/">Test</a></button>
             </div>
           </div>
 
@@ -99,7 +102,7 @@ export default function Project() {
           <div className="w-5/6 rounded-2xl gap-y-2">
             <div>
               <Image
-                src={`/wapp.png`}
+                src={`/adoptme/adoptme1.png`}
                 width={600}
                 height={300}
                 alt=""
@@ -109,7 +112,7 @@ export default function Project() {
             
             <div>
               <Image
-                src={`/wapp.png`}
+                src={`/adoptme/adoptme.png`}
                 width={600}
                 height={300}
                 alt=""
@@ -118,22 +121,24 @@ export default function Project() {
             </div>
           </div>
 
-          <div className="grid content-center space-y-5 tracking-wide text-black lg:space-y-10 lg:pt-5">
+          <div className="grid content-center space-y-5 tracking-wide text-black lg:space-y-10 lg:pt-2">
             <div className="font-bold lg:text-3xl">
-              What is Lorem Ipsum?
+              Adopt a Pet 
             </div>
-            <div className="font-semibold lg:text-xl">
-              this is a paragraphLorem Ipsum is simply dummy text of the
-              printing and typesetting industry. 
+            <div className="font-semibold text-white align-baseline lg:text-2xl">
+             Adopt a Pet is a site built to help search for pet animals of choice by being able 
+             to specify it&apos;s breed, gender, color and other further features, built with Basic Languages (HTML5, CSS3 and Javascript)
+             also with Frameworks such as <a href="https://tailwindcss.com/" className="text-blue-900">Tailwindcss</a>, <a href="https://daisyui.com/" className="text-blue-900" >Daisyui</a> and <a href="https://nextjs.org/" className="text-blue-900" >Next.js</a>, 
+             Used Github as Version Control and Vercel for Deployment. <br/><br/> Click <a href="https://github.com/skad12/adoptme" className="text-blue-900" >here</a> for source code.
             </div>
             <div className="">
             <button type="button" className="text-white bg-red-700 hover:bg-red-800 font-medium rounded-lg
-             text-sm px-5 py-2.5  hover:animate-bounce text-center mr-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">Test</button>
+             text-sm px-5 py-2.5  hover:animate-bounce text-center mr-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900"><a href="https://adoptme-seven.vercel.app/">Test</a></button>
             </div>
           </div>
 
         {/*  content4  */}
-          <div className="w-5/6 rounded-2xl gap-y-2">
+          {/* <div className="w-5/6 rounded-2xl gap-y-2">
             <div>
               <Image
                 src={`/wapp.png`}
@@ -167,7 +172,7 @@ export default function Project() {
             <button type="button" className="text-white bg-red-700 hover:bg-red-800 font-medium rounded-lg
              text-sm px-5 py-2.5  hover:animate-bounce text-center mr-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">Test</button>
             </div>
-          </div>
+          </div> */}
 
         </div>
       </div>
