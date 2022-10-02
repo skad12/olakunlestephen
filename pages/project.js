@@ -15,7 +15,7 @@ export default function Project() {
       <div
         className="antialiased lg:pt-5"
         style={{
-          backgroundImage: ` url(' https://images.pexels.com/photos/7078034/pexels-photo-7078034.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1 ')`,
+          backgroundImage: ` url(' https://images.unsplash.com/photo-1662080504623-15b0749a3e6b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80 ')`,
         }}
       >
         <div className="grid pt-32 pb-24 pl-16 pr-16 lg:pt-48 lg:grid-cols-2 lg:gap-y-36 gap-y-16">

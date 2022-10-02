@@ -15,6 +15,7 @@ export default function Home() {
           backgroundImage: `url('https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80')`,
         }}
       >
+
         <div className="p-16 pt-12 space-y-10 ">
           <div>
             <div className="text-4xl font-light lg:text-5xl">
@@ -42,7 +43,7 @@ export default function Home() {
     </Link>
   </li>
   <li>
-  <Link  href="/info">
+  <Link  href="/contact">
     <a>
       <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
       Info
@@ -75,6 +76,36 @@ export default function Home() {
 </ul>
           </div>
         </div>
+
+
+        <div className="pr-10 pb-10 grid grid-cols-3">
+            
+
+            <div className="space-y-4 col-end-4">
+
+              <div>
+                I&apos;m a <span className="font-bold">Front-End
+                Developer</span> based in Abuja, Nigeria. I&apos;m a passionate
+                developer who loves coding, open source, and the web platform.
+              </div>
+              <div>
+                {" "}
+                I build and create product that solves real-life problems and
+                satisfies my client&apos;s Request. I specialize in using
+                Languages Such as <span className="font-bold">HTML5</span>, <span className="font-bold">CSS3</span> and <span className="font-bold">Javascript</span>, And work with
+                Frameworks such as <span className="font-bold">Tailwindcss</span>, <span className="font-bold">Alpinejs</span>, <span className="font-bold">Nextjs</span> and <span className="font-bold">WordPress</span>.
+                Aside from my job, I like to create and contribute to open
+                source projects.
+              </div>
+              <div>
+                {" "}
+                That helps me to learn a ton of new stuff, grow as a developer
+                and support other open source projects. In my free time you can
+                find me playing Video Games, at the gym or on tech meetups
+                and conferences around Abuja
+              </div>
+            </div>
+          </div>
       </div>
     </>
   );
