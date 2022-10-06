@@ -43,7 +43,7 @@ export default function Home() {
     </Link>
   </li>
   <li>
-  <Link  href="/contact">
+  <Link  href="/info">
     <a>
       <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
       Info
@@ -51,7 +51,7 @@ export default function Home() {
     </Link>
   </li>
   <li>
-    <Link href="/project">
+    <Link href="/proj">
     <a>
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
   <path strokeLinecap="round" strokeLinejoin="round" d="M15.59 14.37a6 6 0 01-5.84 7.38v-4.8m5.84-2.58a14.98 14.98 0 006.16-12.12A14.98 14.98 0 009.631 8.41m5.96 5.96a14.926 14.926 0 01-5.841 2.58m-.119-8.54a6 6 0 00-7.381 5.84h4.8m2.581-5.84a14.927 14.927 0 00-2.58 5.84m2.699 2.7c-.103.021-.207.041-.311.06a15.09 15.09 0 01-2.448-2.448 14.9 14.9 0 01.06-.312m-2.24 2.39a4.493 4.493 0 00-1.757 4.306 4.493 4.493 0 004.306-1.758M16.5 9a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z" />
@@ -85,15 +85,15 @@ export default function Home() {
 
               <div>
                 I&apos;m a <span className="font-bold">Front-End
-                Developer</span> based in Abuja, Nigeria. I&apos;m a passionate
-                developer who loves coding, open source, and the web platform.
+                Developer</span> based in <span className="font-bold">Abuja, Nigeria.</span> I&apos;m a passionate
+                developer who loves coding, open source, and the Web platforms and Mobile Apps.
               </div>
               <div>
                 {" "}
                 I build and create product that solves real-life problems and
                 satisfies my client&apos;s Request. I specialize in using
                 Languages Such as <span className="font-bold">HTML5</span>, <span className="font-bold">CSS3</span> and <span className="font-bold">Javascript</span>, And work with
-                Frameworks such as <span className="font-bold">Tailwindcss</span>, <span className="font-bold">Alpinejs</span>, <span className="font-bold">Nextjs</span> and <span className="font-bold">WordPress</span>.
+                Frameworks such as <span className="font-bold">Tailwindcss</span>, <span className="font-bold">Next.js</span>, <span className="font-bold">React Native</span> and <span className="font-bold">WordPress</span>.
                 Aside from my job, I like to create and contribute to open
                 source projects.
               </div>
