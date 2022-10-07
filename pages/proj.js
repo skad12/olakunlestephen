@@ -79,11 +79,11 @@ export default function Home() {
 
                             {/*  projects  */}
 
-<div className=" pr-4 pl-4 lg:pr-16 lg:pl-16  pt-10 space-y-4  ">
+<div className=" pr-4 pl-4 lg:pr-16 lg:pl-16  pt-10 space-y-4 pb-16">
 
   <div className="lg:text-4xl text-lg font-bold ">Projects</div>
   
-<div className=" border-y-2 border-dotted border-y-gray-500 space-y-4 py-4 px-4 font-semibold text-xs lg:text-base ">
+<div className=" border-y-2 border-dotted border-y-gray-500 space-y-4 py-4 px-4 font-semibold text-sm lg:text-base  ">
 
   <div className=" flex space-x-4 "> 
   <div className="">+ Quote Generator </div>
