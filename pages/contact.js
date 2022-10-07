@@ -16,9 +16,9 @@ export default function Home() {
         }}
       >
 
-        <div className="p-16 pt-12 space-y-10 ">
+        <div className="p-4 lg:p-16 lg:pt-12 space-y-10 ">
           <div>
-            <div className="text-4xl font-light lg:text-5xl">
+            <div className="text-xl lg:font-light lg:text-5xl">
             <span className="font-extrabold">O</span>lakunle{" "} Stephen{" "}
             </div>
              
@@ -76,14 +76,14 @@ export default function Home() {
         </div>
 
 
-        <div className="pr-10 pb-10 grid grid-cols-3">
+        <div className=" p-4 lg:pr-10 lg:pb-10 lg:grid lg:grid-cols-3">
             
 
             <div className="space-y-4 col-end-4">
 
             <div className=" space-y-2">
           
-          <div className=" flex  font-bold lg:text-2xl md:text-xl">
+          <div className=" flex  font-bold lg:text-2xl ">
             Let&apos;s make something together.{" "}
 
             <span className=" h-10 pl-4">
@@ -93,7 +93,7 @@ export default function Home() {
 </svg>
 </span>
           </div>
-          <div className="pt-6   ">
+          <div className="lg:pt-6 text-sm lg:text-base  ">
             Feel free to send me an email if you&apos;re looking for a front-end
             engineer, <br />
             have a question or just want to say hi!

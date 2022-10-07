@@ -16,9 +16,9 @@ export default function Home() {
         }}
       >
 
-        <div className="p-16 pt-12 space-y-10 ">
+        <div className="p-4 lg:p-16 lg:pt-12 space-y-10">
           <div>
-            <div className="text-4xl font-light lg:text-5xl">
+            <div className="text-xl lg:font-light lg:text-5xl">
             <span className="font-extrabold">O</span>lakunle{" "} Stephen{" "}
             </div>
              
@@ -27,7 +27,7 @@ export default function Home() {
               </div>
           </div>
 
-          <div className="space-y-5  "> 
+          <div className=" "> 
           
       <ul className="menu  w-56 p-2 rounded-box bg-glass ">
 
@@ -78,10 +78,10 @@ export default function Home() {
         </div>
 
 
-        <div className="pr-10 pb-10 grid grid-cols-3">
+        <div className="p-4 lg:pr-10 lg:pb-10 lg:grid lg:grid-cols-3">
             
 
-            <div className="space-y-4 col-end-4">
+            <div className="space-y-4 col-end-4 text-sm lg:text-base pb-8">
 
               <div>
                 I&apos;m a <span className="font-bold">Front-End

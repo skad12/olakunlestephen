@@ -15,9 +15,9 @@ export default function Home() {
           backgroundImage: `url('https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80')`,
         }}
       >
-        <div className="p-16 pt-12 space-y-10 ">
+        <div className=" p-4 lg:p-16 lg:pt-12 space-y-10 ">
           <div>
-            <div className="text-4xl font-light lg:text-5xl">
+            <div className="text-xl lg:font-light lg:text-5xl">
             <span className="font-extrabold">O</span>lakunle{" "} Stephen{" "}
             </div>
              
@@ -26,9 +26,9 @@ export default function Home() {
               </div>
           </div>
 
-          <div className="space-y-5  "> 
+          <div className="space-y-5 "> 
           
-      <ul className="menu  w-56 p-2 rounded-box bg-glass ">
+      <ul className="menu w-56 p-2 rounded-box bg-glass ">
 
   <li>
     <Link  href="/">
@@ -79,14 +79,14 @@ export default function Home() {
 
                             {/*  projects  */}
 
-<div className="  pr-16 pl-16  pt-10 space-y-4 ">
+<div className=" pr-4 pl-4 lg:pr-16 lg:pl-16  pt-10 space-y-4  ">
 
-  <div className="text-4xl font-bold ">Projects</div>
+  <div className="lg:text-4xl text-lg font-bold ">Projects</div>
   
-<div className=" border-y-2 border-dotted border-y-gray-500 space-y-4 py-4 px-4 font-semibold ">
+<div className=" border-y-2 border-dotted border-y-gray-500 space-y-4 py-4 px-4 font-semibold text-xs lg:text-base ">
 
-  <div className=" flex space-x-4"> 
-  <div>+ Random Quote Generator </div>
+  <div className=" flex space-x-4 "> 
+  <div className="">+ Quote Generator </div>
   <button className="bg-blue-500 hover:bg-blue-700  text-white rounded-lg h-5 w-10 text-xs mt-1 ease-in-out duration-700"><a href="https://random-skad12.vercel.app/"  target="_blank" rel="noopener noreferrer">View</a></button>
   <button className="bg-red-500 hover:bg-red-700 text-white rounded-lg h-5 w-10 text-xs mt-1 ease-in-out duration-700"><a href="https://github.com/skad12/random"  target="_blank" rel="noopener noreferrer">Code</a></button>
   </div>
