@@ -17,7 +17,7 @@ export default function Home() {
       >
         <div className=" p-4 lg:p-16 lg:pt-12 space-y-10 ">
           <div>
-            <div className="text-xl lg:font-light lg:text-5xl">
+            <div className="text-2xl lg:font-light lg:text-5xl">
             <span className="font-extrabold">O</span>lakunle{" "} Stephen{" "}
             </div>
              
