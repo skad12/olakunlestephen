@@ -122,9 +122,15 @@ export default function Home() {
   </div>
 
   <div className=" flex space-x-4"> 
-  <div> Buybis </div>
+  <div>+ Buybis </div>
   <button className="bg-blue-500 hover:bg-blue-700  text-white rounded-lg h-5 w-10 text-xs mt-1 ease-in-out duration-700"><a href="https://buybis.vercel.app/"  target="_blank" rel="noopener noreferrer">View</a></button>
   <button className="bg-red-500 hover:bg-red-700 text-white rounded-lg h-5 w-10 text-xs mt-1 ease-in-out duration-700"><a href="https://github.com/skad12/lendsqr-fe-test"  target="_blank" rel="noopener noreferrer">Code</a></button>
+  </div>
+
+  <div className=" flex space-x-4"> 
+  <div>+ i-Flip </div>
+  <button className="bg-blue-500 hover:bg-blue-700  text-white rounded-lg h-5 w-10 text-xs mt-1 ease-in-out duration-700"><a href="https://i-flip.vercel.app/"  target="_blank" rel="noopener noreferrer">View</a></button>
+  <button className="bg-red-500 hover:bg-red-700 text-white rounded-lg h-5 w-10 text-xs mt-1 ease-in-out duration-700"><a href="https://github.com/skad12/i-Flip"  target="_blank" rel="noopener noreferrer">Code</a></button>
   </div>
  
   </div>
