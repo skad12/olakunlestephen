@@ -11,16 +11,16 @@ function MyApp({ Component, pageProps }) {
         <link rel="icon" href="/code.svg"></link>
       </Head>
       <div
-        className="bg-cover min-h-screen lg:grid lg:grid-rows antialiased font-source"
+        className="antialiased font-source bg-gray-200 min-h-screen md:grid md:content-between "
         style={{
-          backgroundImage: `url('https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80')`,
+          backgroundImage: `url('')`,
         }}
       >
-        <div className="grid content-start">
-          <Navbar />
-        </div>
+        <Navbar />
+
         <Component {...pageProps} />
-        <div className="grid content-end">
+
+        <div>
           <Footer />
         </div>
       </div>

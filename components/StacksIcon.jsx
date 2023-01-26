@@ -3,15 +3,15 @@ import React from "react";
 const Stacks = () => {
   return (
     <>
-      <div className=" lg:flex lg:space-x-5 ">
-        <div className="flex justify-center space-x-5 font-semibold ">
+      <div className=" md:flex md:space-x-5  text-sm md:text-base ">
+        <div className="flex justify-center md:space-x-5 space-x-2 font-semibold">
           <div className="flex space-x-2">
             <div>Tailwindcss</div>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               x="0px"
               y="0px"
-              className="h-6 w-6"
+              className="md:h-6 md:w-6 h-4 w-4 "
               viewBox="0 0 48 48"
             >
               <path

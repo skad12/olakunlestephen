@@ -8,7 +8,7 @@ import Link from "next/link";
 const Grid1 = () => {
   return (
     <>
-      <div className="px-4 py-5 pt-40 mx-auto md:pt-none sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-10">
+      <div className="px-4 py-5 pt-36 mx-auto md:pt-none sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-10">
         <div className="grid gap-8 lg:grid-cols-3 sm:max-w-sm sm:mx-auto lg:max-w-full">
           <div className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
             <Image

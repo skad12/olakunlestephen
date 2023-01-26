@@ -3,9 +3,9 @@ import React from "react";
 const Footer = () => {
   return (
     <>
-      <div className=" flex space-x-6 justify-center ">
+      <div className=" flex space-x-6 justify-center items-end  ">
         <div className="">
-          <button className=" w-8 h-8 rounded-lg lg:text-lg ">
+          <button className=" w-6 h-6 rounded-lg lg:text-lg ">
             <a href="mailto:dammykunle79@gmail.com">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -40,7 +40,7 @@ const Footer = () => {
         </div>
 
         <div>
-          <button className=" w-8 h-8 rounded-lg lg:text-lg ">
+          <button className=" w-6 h-6 rounded-lg lg:text-lg ">
             <a
               href="https://github.com/skad12"
               target="_blank"
@@ -79,7 +79,7 @@ const Footer = () => {
         </div>
 
         <div>
-          <button className=" w-8 h-8 rounded-lg lg:text-lg ">
+          <button className=" w-6 h-6 rounded-lg lg:text-lg ">
             <a
               href="https://www.linkedin.com/in/afuwape-stephen-b917211b0/"
               target="_blank"
@@ -106,7 +106,7 @@ const Footer = () => {
         </div>
 
         <div>
-          <button className=" w-8 h-8 rounded-lg lg:text-lg ">
+          <button className=" w-6 h-6 rounded-lg lg:text-lg ">
             <a
               href="https://twitter.com/TheOnlySkad"
               target="_blank"
@@ -129,7 +129,7 @@ const Footer = () => {
         </div>
 
         <div>
-          <button className=" w-8 h-8 rounded-lg lg:text-lg ">
+          <button className=" w-6 h-6 rounded-lg lg:text-lg ">
             <a href="https://www.instagram.com/theonlyskad/">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

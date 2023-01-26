@@ -1,19 +1,20 @@
 import { react, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import code from "/public/code.png";
+import code from "/public/code.svg";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
     <>
-      <div className="bg-transparent text-gray-800 pt-5 px-8">
+      <div className="bg-transparent text-gray-800 pt-5 px-2">
         <div className=" mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
           <div className="relative flex items-center justify-between">
             <Link href="/">
-              <button className="inline-flex items-center space-x-2">
-                <span className="ml-2 text-xl font-bold tracking-widest  uppercase">
+              <button className="inline-flex space-x-2 px-4 md:px-0">
+                <Image alt="" width={30} height={30} src={code} />
+                <span className="ml-2 md:text-2xl text-xl italic font-semibold tracking-widest  uppercase">
                   SKAD
                 </span>
               </button>
@@ -22,7 +23,7 @@ const Navbar = () => {
             <ul className="flex items-center hidden space-x-8 lg:flex">
               <li>
                 <Link href="./">
-                  <button className="font-medium tracking-wide text-gray-800 transition-colors durat">
+                  <button className="font-medium tracking-wide text-gray-800 hover:font-bold hover:text-xl transition-colors durat">
                     Home
                   </button>
                 </Link>
@@ -30,7 +31,7 @@ const Navbar = () => {
 
               <li>
                 <Link href="./about">
-                  <button className="font-medium tracking-wide text-gray-800 transition-colors durat">
+                  <button className="font-medium tracking-wide text-gray-800 hover:font-bold hover:text-xl transition-colors durat">
                     About
                   </button>
                 </Link>
@@ -38,39 +39,30 @@ const Navbar = () => {
 
               <li>
                 <Link href="./projects">
-                  <button className="font-medium tracking-wide text-gray-800 transition-colors duration-200 ">
+                  <button className="font-medium tracking-wide text-gray-800 hover:font-bold hover:text-xl transition-colors duration-200 ">
                     Projects
                   </button>
                 </Link>
               </li>
               <li>
                 <Link href="./contact">
-                  <button className="font-medium tracking-wide text-gray-800 transition-colors duration-200 ">
+                  <button className="font-medium tracking-wide text-gray-800 hover:font-bold hover:text-xl transition-colors duration-200 ">
                     Contact
                   </button>
                 </Link>
               </li>
-              <li>
-                <Link href="./uses">
-                  <button className="font-medium tracking-wide text-gray-800 transition-colors duration-200 ">
-                    Uses
-                  </button>
-                </Link>
-              </li>
             </ul>
-            <ul className="flex items-center hidden space-x-8 lg:flex">
+            <ul className="flex items-center md:block hidden  ">
               <li>
                 <Link href="/">
-                  <button className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide hover:bg-gray-800 hover:text-white transition duration-200 rounded s focus:shadow-outline focus:outline-none">
+                  <button className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide md:hover:bg-gray-800 md:hover:text-white bg-gray-800 text-white md:bg-gray-200 md:text-gray-800 transition duration-200 rounded s focus:shadow-outline focus:outline-none">
                     Hire Me
                   </button>
                 </Link>
               </li>
             </ul>
-            <div className="lg:hidden block">
+            <div className="lg:hidden block px-4">
               <button
-                aria-label="Open Menu"
-                title="Open Menu"
                 className="p-2 -mr-1 transition duration-200 rounded focus:outline-none focus:shadow-outline"
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
               >
@@ -114,6 +106,16 @@ const Navbar = () => {
                     <nav>
                       <ul className="space-y-4">
                         <li>
+                          <Link href="/">
+                            <div
+                              onClick={() => setIsMenuOpen(false)}
+                              className="font-medium tracking-wide text-gray-700 transition-colors duration-200"
+                            >
+                              Home
+                            </div>
+                          </Link>
+                        </li>
+                        <li>
                           <Link href="/about">
                             <div
                               onClick={() => setIsMenuOpen(false)}
@@ -140,16 +142,6 @@ const Navbar = () => {
                               className="font-medium tracking-wide text-gray-700 transition-colors duration-200"
                             >
                               Contact
-                            </div>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="/uses">
-                            <div
-                              onClick={() => setIsMenuOpen(false)}
-                              className="font-medium tracking-wide text-gray-700 transition-colors duration-200"
-                            >
-                              Uses
                             </div>
                           </Link>
                         </li>

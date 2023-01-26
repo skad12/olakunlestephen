@@ -16,13 +16,13 @@ const Appbanner = () => {
           <StacksIcon />
         </div>
 
-        <div className="flex pt-12 px-24 ">
+        <div className="flex pt-12 px-24 pb-44 ">
           <Image
             src={profile}
             width={200}
             height={200}
             alt=""
-            className="rounded-full flex order-1"
+            className="rounded-full shadow-lg grayscale"
           />
         </div>
       </div>
