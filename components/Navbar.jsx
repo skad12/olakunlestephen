@@ -8,13 +8,13 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="bg-transparent text-gray-800 pt-5 px-2">
-        <div className=" mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+      <div className="px-2 pt-5 text-gray-800 bg-transparent">
+        <div className="mx-auto  sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
           <div className="relative flex items-center justify-between">
             <Link href="/">
-              <button className="inline-flex space-x-2 px-4 md:px-0">
+              <button className="inline-flex px-4 space-x-2 md:px-0">
                 <Image alt="" width={30} height={30} src={code} />
-                <span className="ml-2 md:text-2xl text-xl italic font-semibold tracking-widest  uppercase">
+                <span className="ml-2 text-xl italic font-semibold tracking-widest uppercase md:text-2xl">
                   SKAD
                 </span>
               </button>
@@ -23,7 +23,7 @@ const Navbar = () => {
             <ul className="flex items-center hidden space-x-8 lg:flex">
               <li>
                 <Link href="./">
-                  <button className="font-medium tracking-wide text-gray-800 hover:font-bold hover:text-xl transition-colors durat">
+                  <button className="font-medium tracking-wide text-gray-800 transition-colors hover:font-bold hover:text-xl durat">
                     Home
                   </button>
                 </Link>
@@ -31,7 +31,7 @@ const Navbar = () => {
 
               <li>
                 <Link href="./about">
-                  <button className="font-medium tracking-wide text-gray-800 hover:font-bold hover:text-xl transition-colors durat">
+                  <button className="font-medium tracking-wide text-gray-800 transition-colors hover:font-bold hover:text-xl durat">
                     About
                   </button>
                 </Link>
@@ -39,29 +39,29 @@ const Navbar = () => {
 
               <li>
                 <Link href="./projects">
-                  <button className="font-medium tracking-wide text-gray-800 hover:font-bold hover:text-xl transition-colors duration-200 ">
+                  <button className="font-medium tracking-wide text-gray-800 transition-colors duration-200 hover:font-bold hover:text-xl ">
                     Projects
                   </button>
                 </Link>
               </li>
               <li>
                 <Link href="./contact">
-                  <button className="font-medium tracking-wide text-gray-800 hover:font-bold hover:text-xl transition-colors duration-200 ">
+                  <button className="font-medium tracking-wide text-gray-800 transition-colors duration-200 hover:font-bold hover:text-xl ">
                     Contact
                   </button>
                 </Link>
               </li>
             </ul>
-            <ul className="flex items-center md:block hidden  ">
+            <ul className="flex items-center hidden md:block ">
               <li>
-                <Link href="/">
-                  <button className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide md:hover:bg-gray-800 md:hover:text-white bg-gray-800 text-white md:bg-gray-200 md:text-gray-800 transition duration-200 rounded s focus:shadow-outline focus:outline-none">
+                <Link href="https://wa.me/message/2FCXILQF2S64E1">
+                  <button className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 bg-gray-800 rounded md:hover:bg-gray-800 md:hover:text-white md:bg-gray-200 md:text-gray-800 s focus:shadow-outline focus:outline-none">
                     Hire Me
                   </button>
                 </Link>
               </li>
             </ul>
-            <div className="lg:hidden block px-4">
+            <div className="block px-4 lg:hidden">
               <button
                 className="p-2 -mr-1 transition duration-200 rounded focus:outline-none focus:shadow-outline"
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -119,7 +119,7 @@ const Navbar = () => {
                           <Link href="/about">
                             <div
                               onClick={() => setIsMenuOpen(false)}
-                              className=" font-medium tracking-wide text-gray-700 transition-colors duration-200 "
+                              className="font-medium tracking-wide text-gray-700 transition-colors duration-200 "
                             >
                               About
                             </div>

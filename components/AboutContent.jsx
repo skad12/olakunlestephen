@@ -3,6 +3,8 @@ import React from "react";
 import profile from "/public/profile.jpeg";
 import Link from "next/link";
 import freecode from "/public/freecode.svg";
+import udemy from "/public/udemy.png";
+import cv from "/public/cv.png";
 
 const AboutContent = () => {
   return (
@@ -82,11 +84,9 @@ const AboutContent = () => {
               </div>
               <div className="pt-1 pb-8">
                 <p className="mb-2 text-lg font-bold">Education & Academics</p>
-                <p className="text-gray-700">
-                  The first mate and his Skipper too will do their very best to
-                  make the others comfortable in their tropic island nest.
-                  Michael Knight a young loner.
-                </p>
+
+                <p className="text-gray-700 font-bold">- Hydrology B.sc</p>
+                <p className="italic">- 04/2013 - 08/2019 </p>
               </div>
             </div>
             <div className="flex">
@@ -106,69 +106,46 @@ const AboutContent = () => {
               </div>
               <div className="pt-1 pb-8">
                 <p className="mb-2 text-lg font-bold">FreeCodeCamp.Org </p>
-                <p className="text-gray-700">
-                  Tell them I hate them. Is the Space Pope reptilian!? Tell her
-                  she looks thin. Hello, little man. I will destroy you!
+                <p className="text-gray-700 font-bold">
+                  - Certificate Course in Responsive Design{" "}
                 </p>
+                <p className="italic"> - 03/2020 - 06/2020</p>
               </div>
             </div>
             <div className="flex">
               <div className="flex flex-col items-center mr-4">
                 <div>
-                  <div className="flex items-center justify-center w-10 h-10 border rounded-full">
-                    <svg
-                      className="w-4 text-gray-600"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      viewBox="0 0 24 24"
-                    >
-                      <line
-                        fill="none"
-                        strokeMiterlimit="10"
-                        x1="12"
-                        y1="2"
-                        x2="12"
-                        y2="22"
-                      />
-                      <polyline
-                        fill="none"
-                        strokeMiterlimit="10"
-                        points="19,15 12,22 5,15"
-                      />
-                    </svg>
+                  <div className="flex items-center justify-center w-6 h-6 border rounded-full">
+                    <Image
+                      src={udemy}
+                      width={50}
+                      height={50}
+                      alt=""
+                      className="h-4 w-4"
+                    />
                   </div>
                 </div>
                 <div className="w-px h-full bg-gray-300" />
               </div>
-              <div className="pt-1 pb-8">
+              <div className=" pb-12">
                 <p className="mb-2 text-lg font-bold">Udemy.com</p>
-                <p className="text-gray-700">
-                  If one examines precultural libertarianism, one is faced with
-                  a choice: either accept rationalism or conclude that context
-                  is a product.
+                <p className="text-gray-700 font-bold">
+                  - Web Development Course{" "}
                 </p>
+                <p className="italic"> - 02/2021 - 05/2021</p>
               </div>
             </div>
             <div className="flex">
               <div className="flex flex-col items-center mr-4">
                 <div>
-                  <div className="flex items-center justify-center w-10 h-10 border rounded-full">
-                    <svg
-                      className="w-6 text-gray-600"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <polyline
-                        fill="none"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeMiterlimit="10"
-                        points="6,12 10,16 18,8"
-                      />
-                    </svg>
+                  <div className="flex items-center justify-center w-6 h-6 border rounded-full">
+                    <Image
+                      src={cv}
+                      width={50}
+                      height={50}
+                      alt=""
+                      className="h-4 w-4"
+                    />
                   </div>
                 </div>
               </div>

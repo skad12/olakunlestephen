@@ -1,5 +1,6 @@
 import React from "react";
 import Form from "../components/Form";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -41,9 +42,11 @@ export default function Home() {
             have a question or just want to say hi!
           </div>
 
-          <button className="inline-flex items-center justify-center h-12 px-6 mt-10 font-medium tracking-wide transition duration-200 rounded shadow-md hover:bg-gray-800 hover:text-white bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none">
-            Hire Me
-          </button>
+          <Link href="https://wa.me/message/2FCXILQF2S64E1">
+            <button className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 bg-gray-800 rounded md:hover:bg-gray-800 md:hover:text-white md:bg-gray-200 md:text-gray-800 s focus:shadow-outline focus:outline-none">
+              Hire Me
+            </button>
+          </Link>
         </div>
       </div>
     </>

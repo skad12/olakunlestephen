@@ -6,7 +6,7 @@ const Form = () => {
       <div className="">
         <div className="mx-auto w-full max-w-[550px]">
           <form
-            action="https://mail.google.com/mail/u/0/#inbox?compose=new"
+            action="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJTKXCfrqfXBFnsVpdjxhFTqPWPGwrXrMmwqsvPCrkpBcQglKPLZQGjgNDvDvkxPpqgSVZL"
             method="POST"
           >
             <div className="mb-5">

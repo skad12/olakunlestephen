@@ -3,7 +3,7 @@ import React from "react";
 const Stacks = () => {
   return (
     <>
-      <div className=" md:flex md:space-x-5  text-sm md:text-base ">
+      <div className=" md:flex text-sm md:text-base ">
         <div className="flex justify-center md:space-x-5 space-x-2 font-semibold">
           <div className="flex space-x-2">
             <div>Tailwindcss</div>
